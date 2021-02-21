@@ -1,0 +1,11 @@
+<------- Anotações sobre React, JSX e JavaScript ------->
+
+# DOM: Document Object Model, o React cria o DOM virtual na memória antes de usar o DOM do navegador. Basicamente o DOM do React permite a atualização da página automaticamente.
+
+# Componentes: Podemos criar os componentes através de classes e funções. Os componentes são partes de uma interface separadas para serem pensadas isoladamente.
+
+- Quando se renderiza um componente na tela através de <Exemplo nome="exemplo"/>, o nome é enviado como propriedade para a função Exemplo, é recebida como objeto através do parâmetro "props". Sendo:
+
+props = {
+    nome: 'exemplo',
+}
