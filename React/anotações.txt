@@ -1,0 +1,11 @@
+< -------------- Anotações -------------- >
+
+# Componentes: Todos os componentes são simples funções de JavaScript, podendo ser também arrow functions, criar essas funções com iniciais em letras maiusculas é uma boa prática.
+
+# Props e States: As props ou propriedades não podem ser alteradas, elas são atributos de um componente que podem ser renderizados para leitura e apenas isso, os componentes que contém apenas as props são chamados de Stateless components, "componentes burros". Por essa razão, existem os States, eles são obejtos, ou seja:
+
+States = {
+    exemplo: "exemplo"
+}
+
+Os componentes que manipulam estados, são chamados de Stateful Components, ou "componentes inteligentes".

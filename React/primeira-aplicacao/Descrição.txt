@@ -1,0 +1,12 @@
+---------- Descrição da aplicação ----------
+
+A primeira aplicação foi criada para aprimorar os conceitos de React básico, ela consiste na renderização de uma página de comentários com um formulário. Esse Dashboard é dividido por um histórico de comentários feitos por um componente, e um formulário para a criação de um novo comentário.
+
+Usamos nessa aplicação: 
+    - Criação de componentes
+    - Propriedades de componentes
+    - Estado da aplicação e manipulação
+    - Tratamento de eventos
+    - Interação de componentes
+    - Estilos de componentes
+    - Instalação de pacotes
