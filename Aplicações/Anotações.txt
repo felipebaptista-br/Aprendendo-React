@@ -18,3 +18,7 @@ Os componentes que manipulam estados, são chamados de Stateful Components, ou "
     - Montagem
     - Atualização
     - Desmontagem
+
+# Hooks: Foram criados para manipular estado com uso de state sem usar uma classe, ou seja, são utilizados dentro de funções (com todos os benefícios de uma classe).
+
+A sintáxe de um Hook é useNomeDoHook.
