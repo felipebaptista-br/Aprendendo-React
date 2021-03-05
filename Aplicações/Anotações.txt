@@ -1,0 +1,20 @@
+< -------------- Anotações -------------- >
+
+# Componentes: Todos os componentes são simples funções de JavaScript, podendo ser também arrow functions, criar essas funções com iniciais em letras maiusculas é uma boa prática.
+
+# Props e States: As props ou propriedades não podem ser alteradas, elas são atributos de um componente que podem ser renderizados para leitura e apenas isso, os componentes que contém apenas as props são chamados de Stateless components, "componentes burros". Por essa razão, existem os States, eles são obejtos, ou seja:
+
+States = {
+    exemplo: "exemplo"
+}
+
+Os componentes que manipulam estados, são chamados de Stateful Components, ou "componentes inteligentes".
+
+# HTTP e status de resposta: Protocolo http é a base de troca de dados na Web (client and Server) através do Request e Response. Toda resposta de back-end é feita junto com um status de resposta ao front-end, essas são as famosas mensagens de erro separadas em 5 grupos.
+
+# API Rest: Os métodos Rest permitem a comunicação entre o front e back-end usando dados para consulta por exemplo. Os servidores podem retornar dados em vários formatos
+
+# Ciclo de vida de um componente: Esse ciclo é dividido em três partes ou etapas, sendo elas: 
+    - Montagem
+    - Atualização
+    - Desmontagem
